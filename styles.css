@@ -1,0 +1,57 @@
+
+button {
+    margin: 3px;
+    padding: 0.5px 0.1px;
+    outline: none;
+    background: cornflowerblue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 4em;
+    height: 70px;
+    width: 70px;
+}
+body {
+    background-color: lightsteelblue;
+
+    
+ 
+    font-family: Verdana;
+    font-size: medium;
+    
+}
+
+button:hover {
+    background-color: lightslategray;
+    color:cornflowerblue;
+    cursor: pointer;
+
+}
+
+#button_hidden
+{
+    margin: 3px;
+    padding: 0.5px 0.1px;
+    outline: none;
+    background: yellow;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 4em;
+    height: 70px;
+    width: 70px;
+
+}
+
+#button_hidden:hover
+{
+    background-color: #ffa000;
+    color:cornflowerblue;
+    cursor: pointer;
+}
+#result {
+  border:1px solid; 
+  display:inline-block;
+  margin:5px;
+/*   padding:5px; */
+}
